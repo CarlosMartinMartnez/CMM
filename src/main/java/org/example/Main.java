@@ -1,3 +1,6 @@
+/**
+Crear trabajadores
+*/
 class Trabajador {
     static String nombre = "SinNombre";
     static int edad = 0;
@@ -15,7 +18,9 @@ class Trabajador {
         System.out.println("Salario: " + Trabajador.salario);
     }
 }
-
+/**
+Calcular bono segun edad
+*/
 class Bono {
     void calcularBono() {
         double bono = 0;
@@ -27,7 +32,9 @@ class Bono {
         System.out.println("Bono: " + bono);
     }
 }
-
+/**
+Saludar segun edad
+*/
 class Saludo {
     void imprimirSaludo() {
         if (Trabajador.edad < 18) {
