@@ -1,4 +1,4 @@
-class A {
+class Trabajador {
     static String nombre = "SinNombre";
     static int edad = 0;
     static double salario = 0.0;
@@ -16,7 +16,7 @@ class A {
     }
 }
 
-class B {
+class Bono {
     void calcularBono() {
         double bono = 0;
         if (A.edad > 50) {
@@ -28,7 +28,7 @@ class B {
     }
 }
 
-class C {
+class Saludo {
     void imprimirSaludo() {
         if (A.edad < 18) {
             System.out.println("Hola, joven " + A.nombre);
