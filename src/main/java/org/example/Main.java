@@ -1,17 +1,24 @@
 /**
-Crear trabajadores
+Author Carlos Martin Martinez
 */
+
 class Trabajador {
     static String nombre = "SinNombre";
     static int edad = 0;
     static double salario = 0.0;
-
+/**
+@param nombre Se espera que se introduzca el nombre del trabajador
+@param edad Se espera que se introduzca la edad del trabajador
+@param salario Se espera que se introduzca el salario del trabajador
+*/
     static void datos(String nombre, int edad, double salario) {
         Trabajador.nombre = nombre;
         Trabajador.edad = edad;
         Trabajador.salario = salario;
     }
-
+/**
+Muestra los datos
+*/
     static void mostrar() {
         System.out.println("Nombre: " + Trabajador.nombre);
         System.out.println("Edad: " + Trabajador.edad);
